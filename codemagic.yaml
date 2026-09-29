@@ -5,9 +5,6 @@ workflows:
     environment:
       flutter: stable
     scripts:
-      - name: Initialize Flutter project structure
-        script: |
-          flutter create . --org com.rotacar --project-name rota_car_passageiro --platforms=android
       - name: Get flutter packages
         script: |
           flutter pub get
